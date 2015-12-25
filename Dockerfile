@@ -9,4 +9,4 @@ RUN make install
 
 EXPOSE 2105
 EXPOSE 2105/udp
-ENTRYPOINT iperf3
+ENTRYPOINT ["iperf3"]
